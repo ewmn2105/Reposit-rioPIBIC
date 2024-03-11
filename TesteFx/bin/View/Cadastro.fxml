@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="608.0" style="-fx-background-color: #4FD8FD;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CadastroController">
+   <children>
+      <AnchorPane prefHeight="502.0" prefWidth="258.0" style="-fx-background-color: #CAEAFC;">
+         <children>
+            <ImageView fitHeight="216.0" fitWidth="225.0" layoutX="21.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../logo_200x200%20(2).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="377.0" layoutY="153.0" prefHeight="34.0" prefWidth="190.0" promptText="Username" />
+      <Label layoutX="304.0" layoutY="153.0" prefHeight="34.0" prefWidth="62.0" text="Username" />
+      <Label layoutX="304.0" layoutY="204.0" prefHeight="34.0" prefWidth="55.0" text="Password" />
+      <Button layoutX="304.0" layoutY="260.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="34.0" prefWidth="266.0" text="Cadastrar" />
+      <Button layoutX="304.0" layoutY="305.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="266.0" text="Voltar a tela de Login" />
+      <TextField layoutX="377.0" layoutY="204.0" prefHeight="34.0" prefWidth="190.0" promptText="Password" />
+   </children>
+</AnchorPane>
